@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    height: 75px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+}
+.navbar > h1{
+    margin: 0px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.landing{
+    display: flex;
+    background-color: #121243;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.coding-box{
+    display: flex;
+    color: white;
+    border: 1px solid black;
+    background-color: #111d23;
+    padding: 25px;
+}
+
+.line-numbers{
+    margin-right: 1rem;
+}
+
+.coding-box > p {
+    margin: 0;
+}
+
+.run-box > .taskbar{
+    display: flex;
+    height: 15px;
+    background-color: white;
+    align-items: center;
+}
+
+.run-button{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.run-button:hover{
+    cursor: pointer;
+}
+
+.taskbar{
+    border-radius: 5px 5px 0 0;
+    border: .5px solid black;
+}
+
+.taskbar-title > p {
+    margin: 0;
+    font-size: .75rem
+}
+
+.taskbar > .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 0 1px;
+}
+
+.close-image{
+    background-color: #ff625a
+}
+
+.maximize-image{
+    background-color: #ffc02f;
+}
+
+.minimize-image{
+    background-color: #27c93f
+}
+
+.run-box > .run-body{
+    color: #00df00;
+    padding: 25px;
+    background-color: black;;
+}
+
+
+
+.section{
+    height: 100vh;
+    background-color: yellow
+}
