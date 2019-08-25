@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css" >
+    <script src="./main.js" ></script>
     <title>William Cheng</title>
 </head>
 <body>
@@ -13,20 +14,21 @@
         <h1>William Cheng</h1>
     </div>
     <div class="landing" >
-        <div class="coding-box" >
-            <div class="line-numbers" >
-                <p>1</p>
-                <p>2</p>
+        <div class="coding-container">
+            <div class="coding-box" >
+                <div class="line-numbers" >
+                    <p>1</p>
+                    <p>2</p>
+                </div>
+                <div class="line-code">
+                    <p>print("Hello World!")</p>
+                </div>
+                
             </div>
-            <div class="line-code">
-                <p>console.log("Hello World!")</p>
-            </div>
-            
+            <button class="run-button" id="run-button">Run Code</button>
         </div>
-        <button class="run-button">Run Code</button>
 
-
-        <div class="run-box">
+        <div class="run-box" >
             <div class="taskbar" >
                 <div class="buttons">
                     <div class="close-image icon"></div>
@@ -36,11 +38,14 @@
                 <div class="taskbar-title" >
                     <p>Will's Macintosh</p>
                 </div>
+                <div></div>
 
                 
             </div>
-            <div class='run-body' >
-                <h3>Hello World!</h3>
+            <div class='run-body' id='terminal' >
+                <div id="terminal-line" >
+                    <h4>Will's-Macbook-Pro:~ user$ <span class="text-cursor" id="line-1" >|</span></h4>
+                </div>
             </div>
         </div>
     </div>
